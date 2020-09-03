@@ -95,6 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="HiPerfMetrics">
+      <Version>1.2.1</Version>
+    </PackageReference>
     <PackageReference Include="lz4net">
       <Version>1.0.15.93</Version>
     </PackageReference>

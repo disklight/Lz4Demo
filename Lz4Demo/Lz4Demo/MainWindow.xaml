@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lz4Demo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="880.742">
     <Grid>
-        <TextBox x:Name="textboxforlz4" HorizontalAlignment="Left" Height="378" Margin="10,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="774"/>
+        <TextBox x:Name="textboxforlz4" Height="361" Margin="10,49,10.4,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button x:Name="Compress" Content="compress" HorizontalAlignment="Left" Margin="10,8,0,0" VerticalAlignment="Top" Width="75" Click="Compressbtn_Click"/>
         <Button x:Name="Decompressbtn" Content="Decompress" HorizontalAlignment="Left" Margin="101,8,0,0" VerticalAlignment="Top" Width="75" Click="Decompressbtn_Click"/>
+        <TextBox x:Name="TimeResult" HorizontalAlignment="Left" Height="19" Margin="245,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="619"/>
     </Grid>
 </Window>
